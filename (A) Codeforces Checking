@@ -1,0 +1,20 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    string letters = "codeforces";
+    int t;
+    cin >> t;
+    while (t--) {
+        char a;
+        cin >> a;
+        // Check if the character exists in the string
+        if (letters.find(a) != string::npos) {
+            cout << "Yes\n";
+        } else {
+            cout << "No\n";
+        }
+    }
+
+    return 0;
+}
