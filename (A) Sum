@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+  int n,k1,k2,k3;
+  cin>>n;
+  while(n--)
+  {
+    cin>>k1>>k2>>k3;
+    if(k1+k2==k3||k1+k3==k2||k2+k3==k1)
+    {
+      cout<<"YES"<<endl;
+    }
+    else 
+    {
+      cout<<"NO"<<endl;
+    }
+    
+  }
+    
+}
